@@ -1,0 +1,32 @@
+p{
+    margin: 30px;
+    cursor: pointer;
+}
+button, a{
+    background-color: blue;       /* cor de fundo */
+    color: white;                 /* cor da escrita */
+    padding:  10px;           /* espaço entre a borda e o conteúdo */
+    margin: 10px 8px;                     /* espaço entre a borda e o próximo elemento */
+    border: 2px solid #7cab20;    /* border largura | estilo da linha | cor */
+    cursor: pointer;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a{
+    background-color: rgb(157, 255, 0);
+}
+
+button:hover, a:hover{
+    background-color: red;
+    border-color: grey;
+    border-radius: 20px;
+}
+
+div{
+    text-align: center;
+}
